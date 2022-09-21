@@ -359,10 +359,10 @@ calendar:
 # title
 links_title: Links
 links:
-  Google: http://google.com/
-  cocoachina: http://www.cocoachina.com
-  ibireme: http://blog.ibireme.com/
-  ifeve: http://ifeve.com/overview/
+  Google: https://google.com/
+  YouTube: https://youtube.com/
+  MyGoogle: http://google.sai628.com
+  MyYouTube: http://youtube.sai628.com/
 
 
 #! ---------------------------------------------------------------
