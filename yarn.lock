@@ -723,6 +723,14 @@ hexo-deployer-git@^4.0.0:
     nunjucks "^3.2.3"
     picocolors "^1.0.0"
 
+hexo-deployer-rsync@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npmmirror.com/hexo-deployer-rsync/-/hexo-deployer-rsync-3.0.0.tgz#2c293871225d9025cf2bb78cfcb7bbb28593a49c"
+  integrity sha512-VdbKqrTpPpGLAAMqj2bwdL0wWm9xK+gfyNXcgEev1IQHJ2q4T+beMKNWJLv1hAiR3vKPHtnTf+AW7fwMeVHBow==
+  dependencies:
+    hexo-util "^3.0.1"
+    picocolors "^1.0.0"
+
 hexo-front-matter@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmmirror.com/hexo-front-matter/-/hexo-front-matter-1.0.0.tgz#0b48b1c1ed143e8cb25b3b223a9037385d910655"
@@ -867,7 +875,7 @@ hexo-util@^2.7.0:
     prismjs "^1.17.1"
     strip-indent "^3.0.0"
 
-hexo-util@^3.1.0:
+hexo-util@^3.0.1, hexo-util@^3.1.0:
   version "3.2.0"
   resolved "https://registry.npmmirror.com/hexo-util/-/hexo-util-3.2.0.tgz#42232f21387b990b6756e402a0f78c3dfe372aae"
   integrity sha512-iM2eS8P88IUpcgiU2szx584bwhXzjzLLqED6WwDk55wYQZrQh/sni/UJwmoW4pxpgubbISIUPXr4LjwPyJuYzA==
