@@ -85,6 +85,11 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment.html
 deploy:
-  type: git
-  repo:
-    github: git@github.com:Sai628/sai628.github.io.git,master
+  type: rsync
+  host: air.sai628.com
+  user: root
+  root: /var/www/sai628_com
+  port: 22
+  delete: true
+  verbose: true
+  ignore_errors: false
