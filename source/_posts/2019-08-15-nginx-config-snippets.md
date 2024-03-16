@@ -41,7 +41,7 @@ server {
 >
 > /download/cdn-west/media/file1 -> /download/cdn-west/mp3/file1.mp3  
 > /download/cdn-west/media/file2.flv -> /download/cdn-west/mp3/file2.mp3  
-> /download/cdn-est/audio/file3 -> /download/cdn-west/mp3/file3.ra
+> /download/cdn-est/audio/file3 -> /download/cdn-est/mp3/file3.ra
 
 <br/>
 
@@ -77,7 +77,7 @@ server {
     listen 80;
     listen 443 ssl;
     server_name domain.com;
-    return 301 $scheme.www.domain.com$request_uri;
+    return 301 $scheme://www.domain.com$request_uri;
 }
 
 # remove "www" prefix
